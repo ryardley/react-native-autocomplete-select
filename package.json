@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Vizir/react-native-autocomplete-select.git"
+    "url": "git://github.com/ryardley/react-native-autocomplete-select.git"
   },
   "scripts": {},
   "keywords": [
@@ -24,24 +24,10 @@
     "babel-eslint": "^7.1.1",
     "babel-preset-react-native": "^1.9.1",
     "enzyme": "^2.7.1",
-    "husky": "^0.13.1",
-    "jest": "^18.1.0",
     "react-addons-test-utils": ">=15.4.1",
     "react-dom": ">=15.4.1",
     "snazzy": "^6.0.0",
     "standard": "^8.6.0"
-  },
-  "jest": {
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "index.js",
-      "AutoComplete/**/*.js"
-    ],
-    "coverageDirectory": "./coverage",
-    "preset": "react-native",
-    "transformIgnorePatterns": [
-      "node_modules/(?!react-native)"
-    ]
   },
   "standard": {
     "parser": "babel-eslint"
