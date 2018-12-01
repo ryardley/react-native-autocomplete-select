@@ -7,11 +7,7 @@
     "type": "git",
     "url": "git://github.com/Vizir/react-native-autocomplete-select.git"
   },
-  "scripts": {
-    "lint": "standard --verbose | snazzy",
-    "precommit": "npm run lint && npm test",
-    "test": "NODE_ENV=production jest"
-  },
+  "scripts": {},
   "keywords": [
     "react-native",
     "autocomplete",
@@ -20,8 +16,8 @@
   "author": "Thiago Porto",
   "license": "MIT",
   "dependencies": {
-    "react": ">=15.4.1",
-    "react-native": ">=0.38.0",
+    "react": "^16.6.1",
+    "react-native": "^0.57.7",
     "string_score": "git+https://github.com/ThiagoNP/string_score.git"
   },
   "devDependencies": {
